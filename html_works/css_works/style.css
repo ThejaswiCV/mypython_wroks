@@ -1,0 +1,32 @@
+/* selectors-tagname,id-#,class-. */
+body{
+    background-color: rgba(243, 188, 9, 0.534);
+}
+
+
+h1{
+    color: brown;
+    text-decoration: underline;
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    text-align: center;
+}
+
+#id_place{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+   
+}
+
+.p-danger{
+    color: red;
+    border-width:2px ;
+    border-color: red;
+    border-style: solid;
+}
+
+.p-primary{
+    color: blue;
+    border: blue 2px solid;
+}

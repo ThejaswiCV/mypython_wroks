@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+
+.parent{
+    width: 80%;
+    height: 400px;
+    background-color:darkviolet;
+    display: flex;
+    /* justify-content: space-between;  #space only between */
+    /* justify-content: space-around; #around space.left and right is included*/
+    justify-content: space-evenly; 
+    /* justify-content: center; no space btw them but all in centre */
+    align-items: center;
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+}
+
+.child{
+    width: 20%;
+    height: 200px;
+}
+
+.parent .child:nth-child(1){
+    background-color: coral;
+}
+
+.parent .child:nth-child(2){
+    background-color: rgb(49, 151, 104);
+}
+
+.parent .child:nth-child(3){
+    background-color: rgb(230, 176, 30);
+}
+
+.parent .child:nth-child(4){
+    background-color: rgb(5, 15, 75);
+}

@@ -1,0 +1,11 @@
+print => display message in console
+
+input() => read value from console
+
+type => return datatype of object
+
+range(start,end,step)
+range(1,5)=> (1,2,3,4)
+range(1,6,2)=>(1,3,5)
+=> return seqence of number from start end-1
+

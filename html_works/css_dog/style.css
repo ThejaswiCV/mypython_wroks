@@ -1,0 +1,16 @@
+h2{
+  color: rgb(17, 124, 196); 
+  background-color:  rgb(175, 213, 238); 
+}
+
+h4{
+    font-weight: 100;
+}
+
+#p-primary{
+    color: rgb(4, 56, 226);
+}
+
+#p-blue{
+    color: rgb(9, 156, 241);
+}

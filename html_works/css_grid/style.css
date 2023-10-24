@@ -1,0 +1,32 @@
+.parent{
+    width: 80%;
+    min-height: 500px;
+    background-color: blueviolet;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    /* grid-column-gap: 10px;
+    grid-row-gap: 10px; */
+    /* padding: 20px; */
+    grid-gap: 20px;
+}
+
+.child{
+    
+    background-color:lightcoral;
+    border: 1px solid black;
+
+}
+
+.parent .child:nth-child(2){
+    background-color: chartreuse;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.parent .child:nth-child(1){
+    background-color: red;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
